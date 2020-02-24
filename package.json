@@ -1,11 +1,14 @@
 {
   "name": "@finosofica/ngx-facebook",
   "version": "3.0.0",
+  "description": "Facebook TypeScript SDK for Angular",
   "peerDependencies": {
     "@angular/common": "^9.0.2",
     "@angular/core": "^9.0.2",
     "tslib": "^1.10.0"
   },
+  "license": "MIT",
+  "author": "Zyra Media Inc.",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
