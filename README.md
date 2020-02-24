@@ -4,13 +4,9 @@ This is a wrapper for the official Facebook JavaScript SDK. It makes it easier t
 
 <br><br>
 
-[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/ngx-facebook)
-[![CircleCI](https://img.shields.io/circleci/project/github/zyra/ngx-facebook.svg)](https://circleci.com/gh/zyra/ngx-facebook)
-[![Sauce Test Status](https://saucelabs.com/buildstatus/ng2facebooksdk)](https://saucelabs.com/u/ng2facebooksdk)
-[![npm](https://img.shields.io/npm/dt/ngx-facebook.svg)](https://www.npmjs.com/package/ngx-facebook)
-[![npm](https://img.shields.io/npm/dm/ngx-facebook.svg)](https://www.npmjs.com/package/ngx-facebook)
-
-[![Sauce Test Status](https://saucelabs.com/browser-matrix/ng2facebooksdk.svg)](https://saucelabs.com/u/ng2facebooksdk)
+[![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
+[![npm](https://img.shields.io/npm/dt/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
+[![npm](https://img.shields.io/npm/dm/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebookk)
 
 <br><br>
 
@@ -43,10 +39,8 @@ export class AppModule { }
 
 ```
 
-If you only want to use [FacebookService](https://zyra.github.io/ngx-facebook/facebook-service) only, without using the other components, then you can import it in your app's module instead of `FacebookModule`.
+If you only want to use only, without using the other components, then you can import it in your app's module instead of `FacebookModule`.
 
-#### 4. Inject `FacebookService` and call the `init` method (optional):
-This method must be called before using [`login`](http://zyra.github.io/ngx-facebook/facebook-service/#login) or [`api`](http://zyra.github.io/ngx-facebook/facebook-service/#api) methods. It is not required for other methods/components.
 
 ```typescript
 import { FacebookService, InitParams } from 'ngx-facebook';
@@ -69,17 +63,6 @@ export class MyComponentOrService {
 
 }
 ```
-
-<br><br>
-
-## Documentation
-You can view complete and detailed documentation by visiting https://zyra.github.io/ngx-facebook/.
-
-<br><br>
-
-## Example Usage
-
-You can view our [example project here](https://zyra.github.io/ngx-facebook-example/) and/or view its [source code here](https://github.com/zyra/ngx-facebook-example/)
 
 <br><br>
 
@@ -115,7 +98,7 @@ import { FacebookService, UIParams, UIResponse } from 'ngx-facebook';
 share(url: string) {
 
   let params: UIParams = {
-    href: 'https://github.com/zyra/ngx-facebook',
+    href: 'https://github.com/andreasnicolaou/ngx-facebook',
     method: 'share'
   };
 
@@ -130,7 +113,7 @@ share(url: string) {
 
 ### Example of adding a Facebook like button
 ```html
-<fb-like href="https://github.com/zyra/ngx-facebook"></fb-like>
+<fb-like href="https://github.com/andreasnicolaou/ngx-facebook"></fb-like>
 ```
 
 <br><br>
@@ -170,7 +153,7 @@ export class MyComponent {
 
 <br><br>
 ## Contribution
-- **Having an issue**? or looking for support? [Open an issue](https://github.com/zyra/ngx-facebook/issues/new) and we will get you the help you need.
+- **Having an issue**? or looking for support? [Open an issue](https://github.com/andreasnicolaou/ngx-facebook/issues/new) and we will get you the help you need.
 - Got a **new feature or a bug fix**? Fork the repo, make your changes, and submit a pull request.
 
 ## Support this project
