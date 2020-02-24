@@ -6,13 +6,14 @@ jobs:
         - image: circleci/node:8-browsers
       steps:
         - checkout
-        - restore_cache:
-          key: AngularCircleCI-{{ .Branch }}-{{ checksum "package.json" }}
-      - run: npm install
-      - save_cache:
-          key: AngularCircleCI-{{ .Branch }}-{{ checksum "package.json" }}
-          paths:
-            - "node_modules"
-      - run: xvfb-run -a npm run test -- --single-run --no-progress --browser=ChromeNoSandbox
-      - run: xvfb-run -a npm run e2e -- --no-progress --config=protractor-ci.conf.js
-
+           name: Install node modules
+           command: npm i
+        - run:
+           name: Lint
+           command: npm run lint
+        - run:
+           name: Build module
+           command: npm run build
+        - run:
+           name: Test
+           command: npm test
