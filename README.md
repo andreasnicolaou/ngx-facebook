@@ -1,6 +1,6 @@
 # ngx-facebook
 
-This is a wrapper for the official Facebook JavaScript SDK. It makes it easier to use Facebook SDK with Angular 2+ by providing components, providers and types.
+This is a wrapper for the official Facebook JavaScript SDK. It makes it easier to use Facebook SDK with Angular 8+ by providing components, providers and types. 
 
 <br><br>
 
@@ -19,7 +19,7 @@ This is a wrapper for the official Facebook JavaScript SDK. It makes it easier t
 #### 1. Install via NPM:
 
 ```shell
-npm i --save ngx-facebook
+npm i --save @finosofica/ngx-facebook
 ```
 
 #### 2. Add the Facebook JavaScript SDK to your index.html
