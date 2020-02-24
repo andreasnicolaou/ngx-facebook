@@ -5,8 +5,8 @@ This is a wrapper for the official Facebook JavaScript SDK. It makes it easier t
 <br><br>
 
 [![npm](https://img.shields.io/npm/l/express.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
-[![npm](https://img.shields.io/npm/dt/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
-[![npm](https://img.shields.io/npm/dm/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebookk)
+[![npm](https://img.shields.io/npm/dt/@finosofica/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
+[![npm](https://img.shields.io/npm/dm/@finosofica/ngx-facebook.svg)](https://www.npmjs.com/package/@finosofica/ngx-facebook)
 
 <br><br>
 
