@@ -1,12 +1,20 @@
 {
-  "name": "ngx-facebook",
+  "name": "@finosofica/ngx-facebook",
   "version": "3.0.0",
-  "description": "Facebook TypeScript SDK for Angular",
   "peerDependencies": {
     "@angular/common": "^9.0.2",
     "@angular/core": "^9.0.2",
     "tslib": "^1.10.0"
   },
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "private": true,
   "devDependencies": {
     "@angular/common": "^9.0.2",
     "@angular/compiler": "^9.0.2",
