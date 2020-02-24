@@ -6,15 +6,8 @@ jobs:
         - image: node:7
       steps:
         - checkout
-        - restore_cache:
-           key: node_modules_{{ .Branch }}_{{ checksum "package.json" }}
-        - run:
            name: Install node modules
            command: npm i
-        - save_cache:
-           key: node_modules_{{ .Branch }}_{{ checksum "package.json" }}
-           paths:
-             - ~/ngx-facebook/node_modules/
         - run:
            name: Lint
            command: npm run lint
@@ -24,4 +17,3 @@ jobs:
         - run:
            name: Test
            command: npm test
-        - add_ssh_keys
