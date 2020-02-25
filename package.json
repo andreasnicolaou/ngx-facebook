@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andreasnicolaou/ngx-facebook.git"
+    "url": "https://github.com/finosofica/ngx-facebook.git"
   },
   "bugs": {
-    "url": "https://github.com/andreasnicolaou/ngx-facebook/issues"
+    "url": "https://github.com/finosofica/ngx-facebook/issues"
   },
-  "homepage": "https://github.com/andreasnicolaou/ngx-facebook",
+  "homepage": "https://github.com/finosofica/ngx-facebook",
   "license": "MIT",
   "author": "Zyra Media Inc.",
   "scripts": {
