@@ -26,7 +26,7 @@ npm i --save @finosofica/ngx-facebook
 #### 3. Import `FacebookModule` into your app's root module
 ```typescript
 
-import { FacebookModule } from 'ngx-facebook';
+import { FacebookModule } from '@finosofica/ngx-facebook';
 
 @NgModule({
   ...
@@ -43,7 +43,7 @@ If you only want to use only, without using the other components, then you can i
 
 
 ```typescript
-import { FacebookService, InitParams } from 'ngx-facebook';
+import { FacebookService, InitParams } from '@finosofica/ngx-facebook';
 
 ...
 
@@ -69,7 +69,7 @@ export class MyComponentOrService {
 ### Example of login with Facebook
 
 ```typescript
-import { FacebookService, LoginResponse } from 'ngx-facebook';
+import { FacebookService, LoginResponse } from '@finosofica/ngx-facebook';
 
 @Component(...)
 export class MyComponent {
@@ -91,7 +91,7 @@ export class MyComponent {
 
 ### Example of sharing on Facebook
 ```typescript
-import { FacebookService, UIParams, UIResponse } from 'ngx-facebook';
+import { FacebookService, UIParams, UIResponse } from '@finosofica/ngx-facebook';
 
 ...
 
@@ -131,7 +131,7 @@ share(url: string) {
 ```
 ```typescript
 import { Component, ViewChild } from '@angular/core';
-import { FBVideoComponent } from 'ngx-facebook';
+import { FBVideoComponent } from '@finosofica/ngx-facebook';
 
 @Component(...)
 export class MyComponent {
