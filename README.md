@@ -98,7 +98,7 @@ import { FacebookService, UIParams, UIResponse } from 'ngx-facebook';
 share(url: string) {
 
   let params: UIParams = {
-    href: 'https://github.com/andreasnicolaou/ngx-facebook',
+    href: 'https://github.com/finosofica/ngx-facebook',
     method: 'share'
   };
 
@@ -113,7 +113,7 @@ share(url: string) {
 
 ### Example of adding a Facebook like button
 ```html
-<fb-like href="https://github.com/andreasnicolaou/ngx-facebook"></fb-like>
+<fb-like href="https://github.com/finosofica/ngx-facebook"></fb-like>
 ```
 
 <br><br>
@@ -153,7 +153,7 @@ export class MyComponent {
 
 <br><br>
 ## Contribution
-- **Having an issue**? or looking for support? [Open an issue](https://github.com/andreasnicolaou/ngx-facebook/issues/new) and we will get you the help you need.
+- **Having an issue**? or looking for support? [Open an issue](https://github.com/finosofica/ngx-facebook/issues/new) and we will get you the help you need.
 - Got a **new feature or a bug fix**? Fork the repo, make your changes, and submit a pull request.
 
 ## Support this project
